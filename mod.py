@@ -40,7 +40,7 @@ def add_contakt(data: list):                                    # добавля
 
 
 
-def edit_contakt(data: list, index: dict):                      # меняет отдельные параметры контакта
+def edit_contakt(data: list, index: dict):                      # меняет параметры контакта
     item_index = int(input("Введите номер контакта, который нужно изменить:  "))
     param = int(input("Введите параметр, который нужно изменить: фамилия - 1, имя - 2, номер телефона - 3, статус - 4:  "))
     print(f"Прежний параметр: {data[index.get(item_index)][param - 1]}")

@@ -16,7 +16,7 @@ data = []
 def main_menu(file, answer = 0):                            
     answer = int(input("Выберите нужный пункт меню: "))
     if answer > 8 or answer <= 0:
-        print("В меню нет такого пункта")
+        print("такого пункта нет")
     if answer == 8:
         print("Программа окончена")
         return "", answer
